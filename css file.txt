@@ -1,0 +1,90 @@
+.c1box{
+    color:#5A87A4;
+}
+.boxx{
+    height: 120px;
+}
+.c2box{
+    height: 200px;
+    width:100%;
+    font-size: 40px;
+    color: #5A87A4;
+}
+.c3box{
+    height: 130px;
+    float:center;
+}
+
+.myform{
+    height: 110px;
+}
+#myinput{
+    text-align: center;
+}
+
+.supervisor{
+    background-color:#FAD04B;
+    height: 50px;
+    color:white;
+}
+
+
+#cover {
+    background: #222 url('https://unsplash.it/1920/1080/?random') center center no-repeat;
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+#cover-caption {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+/* only used for background overlay not needed for centering */
+form:before {
+    content: '';
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.3);
+    z-index: -1;
+    border-radius: 10px;
+}
+
+/*.c1box{
+    margin-top: 20px;
+    border: 3px silver;
+    height: 120px;
+    width:100%;
+    background-color:rgb(221, 255, 255);
+}
+.dbox{
+    height:40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(52, 116, 36);
+    font-size: 40px;
+    text-shadow: rgba(0, 0, 0, 0.925);
+}
+.ebox{
+    height:40px;
+    border:blue;
+    font-size:25px;
+    border-radius: 10px;
+}
+.fbox{
+    height:40px;
+    font-size: 25px;
+    border:blue;
+}
+.gbox{
+    height:40px;
+    font-size: 25px;
+    border:blue;
+}*/
